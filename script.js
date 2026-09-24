@@ -1,12 +1,17 @@
 const formulario = document.getElementById('formulario');
 const mensagem = document.getElementById('mensagem');
 
-formulario.addEventListener('submit', function(event)){
+formulario.addEventListener('submit', function(event){
     event.preventDefault();
 
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
     const telefone = document.getElementById('telefone').value;
 
-    if
-}
+    if (nome == '' || email == '' || telefone == '') {
+        mensagem.textContent = 'Preencha todos os campos.';
+    } else {
+        mensagem.textContent = 'formulario enviado com sucesso!';
+    }
+
+});
