@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;               
+    height: 100vh;             
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    background-color: rgb(128, 162, 255); 
+
+}
+
+form {
+
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+
+}
+
+label {
+
+    display: block;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    margin-top: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#mensagem{
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: rgb(0, 4, 255);
+}
